@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design Case Study — [ Project Name ]</title>
+  <meta name="description" content="A design specification & case study portfolio." />
+ 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..600&family=Hanken+Grotesk:wght@300..800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+ 
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ 
+  <!-- grain + scroll progress -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+ 
+  <!-- ───────────────────────── NAVBAR ───────────────────────── -->
+  <header class="nav" id="nav">
+    <a href="#home" class="brand">
+      <span class="brand-mark">✺</span>
+      <span class="brand-text">CASE&nbsp;STUDY<span class="brand-sub">/ design spec</span></span>
+    </a>
+ 
+    <nav class="nav-links" id="navLinks">
+      <a href="#problem">Problem</a>
+      <a href="#evaluation">Evaluation</a>
+      <a href="#rationale">Rationale</a>
+      <a href="#solution">Solution</a>
+      <a href="#reflection">Reflection</a>
+      <a href="#limitations">Limitations</a>
+      <a href="#references">References</a>
+    </nav>
+ 
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+ 
+  <!-- ───────────────────────── HERO ───────────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero-meta">
+      <span>Design Specification</span>
+      <span class="dot">●</span>
+      <span>[ Course Name ]</span>
+      <span class="dot">●</span>
+      <span>[ Year ]</span>
+    </div>
+ 
+    <h1 class="hero-title">
+      <span class="line">[ Your Project</span>
+      <span class="line accent">Name Here ]</span>
+    </h1>
+ 
+    <p class="hero-lede">
+      One-sentence tagline goes here — a sharp, memorable description of what your
+      design does and who it's for. Replace this with your own elevator pitch.
+    </p>
+ 
+    <div class="hero-team">
+      <div class="ht-item"><span class="k">Team</span><span class="v">[ names ]</span></div>
+      <div class="ht-item"><span class="k">Role</span><span class="v">[ your role ]</span></div>
+      <div class="ht-item"><span class="k">Type</span><span class="v">[ web / app / system ]</span></div>
+      <div class="ht-item"><span class="k">Tools</span><span class="v">[ Figma, etc. ]</span></div>
+    </div>
+ 
+    <a href="#problem" class="scroll-cue">
+      <span>scroll</span>
+      <span class="arrow">↓</span>
+    </a>
+  </section>
+ 
+  <!-- ───────────────────────── 01 · PROBLEM ───────────────────────── -->
+  <section class="section" id="problem">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <span class="sec-kicker">The Problem</span>
+      <h2 class="sec-title">What problem exists, and why it matters.</h2>
+    </div>
+ 
+    <div class="grid-2">
+      <div class="reveal">
+        <p class="body">
+          <strong>[ Frame the problem here. ]</strong> Explain what's broken in the world,
+          who actually experiences it, and why it's worth solving. Convince the reader
+          the problem is real and meaningful — not hypothetical.
+        </p>
+        <ul class="note-list">
+          <li>What problem exists in the world?</li>
+          <li>Who experiences this problem?</li>
+          <li>Why is it important?</li>
+          <li>Why do existing solutions fall short?</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <div class="ph ph-tall" data-label="Empathy map / persona">
+          <span class="ph-tag">drop visual here</span>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="grid-3 reveal">
+      <div class="ph ph-sq" data-label="User research"><span class="ph-tag">image</span></div>
+      <div class="ph ph-sq" data-label="Interview quote"><span class="ph-tag">image</span></div>
+      <div class="ph ph-sq" data-label="Competitive analysis"><span class="ph-tag">image</span></div>
+    </div>
+  </section>
+ 
+  <!-- ───────────────────────── 02 · EVALUATION ───────────────────────── -->
+  <section class="section alt" id="evaluation">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <span class="sec-kicker">Evaluation</span>
+      <h2 class="sec-title">How we tested the design.</h2>
+    </div>
+ 
+    <div class="grid-2">
+      <div class="reveal">
+        <div class="ph ph-wide" data-label="Usability test photos / clips">
+          <span class="ph-tag">drop visual here</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <p class="body">
+          <strong>[ Describe your evaluation. ]</strong> Cover the methods you used —
+          usability testing, cognitive walkthrough, heuristic evaluation, expert or
+          user feedback.
+        </p>
+        <div class="mini-cards">
+          <div class="mini"><span class="mini-k">Who</span> participated?</div>
+          <div class="mini"><span class="mini-k">Tasks</span> they performed?</div>
+          <div class="mini"><span class="mini-k">Worked</span> well?</div>
+          <div class="mini"><span class="mini-k">Problems</span> users hit?</div>
+          <div class="mini"><span class="mini-k">Learned</span> overall?</div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ───────────────────────── 03 · DESIGN RATIONALE ───────────────────────── -->
+  <section class="section" id="rationale">
+    <div class="sec-head reveal">
+      <span class="sec-num">03</span>
+      <span class="sec-kicker">Design Rationale</span>
+      <h2 class="sec-title">Why we made the choices we made.</h2>
+    </div>
+ 
+    <div class="reveal">
+      <p class="body lead">
+        This is one of the most important sections. <strong>[ Explain your reasoning. ]</strong>
+        Show that every decision was intentional and backed by research, testing, or
+        sound logic.
+      </p>
+    </div>
+ 
+    <div class="rationale-rows">
+      <div class="rat-row reveal">
+        <span class="rat-q">Why this solution?</span>
+        <span class="rat-a">[ your reasoning + supporting evidence ]</span>
+      </div>
+      <div class="rat-row reveal">
+        <span class="rat-q">Why better than other ideas?</span>
+        <span class="rat-a">[ compare alternatives you rejected ]</span>
+      </div>
+      <div class="rat-row reveal">
+        <span class="rat-q">How did research shape it?</span>
+        <span class="rat-a">[ tie decisions to user insights ]</span>
+      </div>
+      <div class="rat-row reveal">
+        <span class="rat-q">What trade-offs?</span>
+        <span class="rat-a">[ what you gave up and why ]</span>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ───────────────────────── 04 · DESIGN SOLUTION ───────────────────────── -->
+  <section class="section alt" id="solution">
+    <div class="sec-head reveal">
+      <span class="sec-num">04</span>
+      <span class="sec-kicker">Design Solution</span>
+      <h2 class="sec-title">What we actually built.</h2>
+    </div>
+ 
+    <div class="reveal">
+      <p class="body lead">
+        <strong>[ Describe the core concept. ]</strong> Explain how users interact with it,
+        the key features, and how it solves the problem from Section 01.
+      </p>
+    </div>
+ 
+    <div class="showcase reveal">
+      <div class="ph ph-hero" data-label="Hi-fi prototype / hero mockup">
+        <span class="ph-tag">main screen</span>
+      </div>
+    </div>
+ 
+    <div class="grid-2 gap-tight">
+      <div class="ph ph-med reveal" data-label="Sketches / lo-fi"><span class="ph-tag">image</span></div>
+      <div class="ph ph-med reveal" data-label="User flow diagram"><span class="ph-tag">image</span></div>
+      <div class="ph ph-med reveal" data-label="Interface mockup"><span class="ph-tag">image</span></div>
+      <div class="ph ph-med reveal" data-label="Annotated screen"><span class="ph-tag">image</span></div>
+    </div>
+ 
+    <div class="feature-strip reveal">
+      <div class="feat"><span class="feat-n">A</span><p>[ Key feature one — what it does, why it helps. ]</p></div>
+      <div class="feat"><span class="feat-n">B</span><p>[ Key feature two — what it does, why it helps. ]</p></div>
+      <div class="feat"><span class="feat-n">C</span><p>[ Key feature three — what it does, why it helps. ]</p></div>
+    </div>
+  </section>
+ 
+  <!-- ───────────────────────── 05 · REFLECTION ───────────────────────── -->
+  <section class="section" id="reflection">
+    <div class="sec-head reveal">
+      <span class="sec-num">05</span>
+      <span class="sec-kicker">Reflection &amp; Learning</span>
+      <h2 class="sec-title">The most important section.</h2>
+    </div>
+ 
+    <div class="pull reveal">
+      <p>
+        “[ A reflective pull-quote about your biggest takeaway goes here. ]”
+      </p>
+    </div>
+ 
+    <div class="grid-2">
+      <div class="reveal">
+        <ul class="note-list big">
+          <li>What you learned about design thinking</li>
+          <li>Challenges the team faced</li>
+          <li>How your ideas changed over time</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <ul class="note-list big">
+          <li>What you'd improve with more time</li>
+          <li>How this shifted your view of design</li>
+          <li>Moments of design maturity</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ───────────────────────── 06 · LIMITATIONS ───────────────────────── -->
+  <section class="section alt" id="limitations">
+    <div class="sec-head reveal">
+      <span class="sec-num">06</span>
+      <span class="sec-kicker">Limitations &amp; Future Plan</span>
+      <h2 class="sec-title">No design is perfect.</h2>
+    </div>
+ 
+    <div class="split">
+      <div class="split-col reveal">
+        <h3 class="split-h">Limitations</h3>
+        <ul class="note-list">
+          <li>Where the design may not work well</li>
+          <li>Assumptions it makes about users</li>
+          <li>Trade-offs you accepted</li>
+        </ul>
+      </div>
+      <div class="split-rule" aria-hidden="true"></div>
+      <div class="split-col reveal">
+        <h3 class="split-h">Future Plan</h3>
+        <ul class="note-list">
+          <li>How the design could evolve</li>
+          <li>Features you'd add next</li>
+          <li>What further testing would reveal</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ───────────────────────── 07 · REFERENCES ───────────────────────── -->
+  <section class="section" id="references">
+    <div class="sec-head reveal">
+      <span class="sec-num">07</span>
+      <span class="sec-kicker">References</span>
+      <h2 class="sec-title">Sources &amp; credits.</h2>
+    </div>
+ 
+    <ol class="refs reveal">
+      <li>[ Author, A. (Year). <em>Title of scholarly article</em>. Journal/Publisher. ]</li>
+      <li>[ Author, B. (Year). <em>Title of book</em>. Publisher. ]</li>
+      <li>[ Organization. (Year). <em>Title of web resource</em>. URL. ]</li>
+      <li>[ Design resource / toolkit. URL. ]</li>
+    </ol>
+    <p class="ref-note reveal">Use one consistent citation style (APA, MLA, etc.).</p>
+  </section>
+ 
+  <!-- ───────────────────────── FOOTER ───────────────────────── -->
+  <footer class="footer">
+    <div class="foot-big">[ Project Name ]</div>
+    <div class="foot-row">
+      <span>© [ Year ] · [ Team / Your name ]</span>
+      <a href="#home" class="to-top">Back to top ↑</a>
+    </div>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
