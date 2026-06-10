@@ -240,6 +240,7 @@
   .ph-wide{ aspect-ratio:16/10; }
   .ph-med{ aspect-ratio:3/2; }
   .ph-hero{ aspect-ratio:16/8; }
+  .ph-lg { aspect-ratio: 16/9; }
 
   .ph img {
     position: absolute;
