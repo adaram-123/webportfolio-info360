@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Design Case Study — [ Project Name ]</title>
+  <title>Design Case Study — UAAI</title>
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
   <link rel="apple-touch-icon" href="favicon.png" />
   <meta name="description" content="A design specification & case study portfolio." />
@@ -48,14 +48,14 @@
     <div class="hero-meta">
       <span>Design Specification</span>
       <span class="dot">●</span>
-      <span>[ Course Name ]</span>
+      <span>INFO 360</span>
       <span class="dot">●</span>
-      <span>[ Year ]</span>
+      <span>SPR 2026</span>
     </div>
  
     <h1 class="hero-title">
-      <span class="line">[ Your Project</span>
-      <span class="line accent">Name Here ]</span>
+      <span class="line">UAAI</span>
+      <span class="line accent">Adara, Sanam, & Emma</span>
     </h1>
  
     <p class="hero-lede">
@@ -64,10 +64,10 @@
     </p>
  
     <div class="hero-team">
-      <div class="ht-item"><span class="k">Team</span><span class="v">[ names ]</span></div>
-      <div class="ht-item"><span class="k">Role</span><span class="v">[ your role ]</span></div>
-      <div class="ht-item"><span class="k">Type</span><span class="v">[ web / app / system ]</span></div>
-      <div class="ht-item"><span class="k">Tools</span><span class="v">[ Figma, etc. ]</span></div>
+      <div class="ht-item"><span class="k">Team</span><span class="v">Adara, Sanam, & Emma</span></div>
+      <div class="ht-item"><span class="k">Role</span><span class="v">Designers</span></div>
+      <div class="ht-item"><span class="k">Type</span><span class="v">Website</span></div>
+      <div class="ht-item"><span class="k">Tools</span><span class="v">Figma</span></div>
     </div>
  
     <a href="#problem" class="scroll-cue">
@@ -153,28 +153,59 @@
  
     <div class="reveal">
       <p class="body lead">
-        This is one of the most important sections. <strong>[ Explain your reasoning. ]</strong>
-        Show that every decision was intentional and backed by research, testing, or
-        sound logic.
+        Every design decision in UAAI traces back to a gap our research exposed that students 
+        continue to miss deadlines, avoiding questions, and navigating fragmented tools alone 
+        because the advising system was built around advisor availability, not student need. 
       </p>
     </div>
  
     <div class="rationale-rows">
       <div class="rat-row reveal">
         <span class="rat-q">Why this solution?</span>
-        <span class="rat-a">[ your reasoning + supporting evidence ]</span>
+        <span class="rat-a">
+          Nearly half of surveyed students reported struggling to get an advising meeting, and many had 
+          stopped trying entirely, expecting delays. The current system with drop-in hours, fragmented 
+          platforms, advisor overload have failed students most during their highest-stakes moments: registration 
+          deadlines, major changes, graduation checks. An always-available AI assistant trained on verified 
+          UW-specific data gives students answers the moment they need them, without requiring a 15-minute 
+          appointment that cannot get scheduled for a month for a 30-second question.
+        </span>
       </div>
       <div class="rat-row reveal">
         <span class="rat-q">Why better than other ideas?</span>
-        <span class="rat-a">[ compare alternatives you rejected ]</span>
+        <span class="rat-a">
+          We analyzed four existing solutions. UW's own tools (MyPlan, DawgPath, MyUW) surface 
+          accurate data but leave all interpretation to the student as they're admin-first by design. 
+          EAB Navigate is advisor-facing and does nothing for students who can't get a meeting. 
+          ChatGPT is available 24/7 but has no UW-specific data and frequently generates confident 
+          but inaccurate answers. AdmitHub/Mainstay covers admissions only, not ongoing academic advising. 
+          UAAI is the only option that combines always-on availability, verified UW data, persistent 
+          student memory, and a built-in escalation path to a real human advisor.
+        </span>
       </div>
       <div class="rat-row reveal">
         <span class="rat-q">How did research shape it?</span>
-        <span class="rat-a">[ tie decisions to user insights ]</span>
+        <span class="rat-a">
+          Five key insights from our advisor interview, student survey, and affinity mapping drove 
+          specific decisions. Access being broken meant Chat had to be the landing screen after login with both 
+          rounds of paper prototype testing confirmed it got buried when it competed with equal-weight tabs. 
+          Trust requiring accuracy drove source citations on every answer. Personalization being the gap 
+          between a tool and another UW website drove UW NetID login and persistent profile memory. The 
+          fragmented tool ecosystem justified UAAI as a single student-first interface. With both students 
+          and advisors agreeing AI belongs only in a specific lane drove the persistent "Book Advisor" button on every page.
+        </span>
       </div>
       <div class="rat-row reveal">
         <span class="rat-q">What trade-offs?</span>
-        <span class="rat-a">[ what you gave up and why ]</span>
+        <span class="rat-a">
+          We deprioritized Degree Audit Visualization, Multi-Language Support, and direct 
+          integration with a student's known advisor list to have all identified in ideation but 
+          placed in "nice to have" or "long shot" on our impact/feasibility matrix. A smaller, accurate 
+          feature set builds more trust than a sprawling tool that occasionally gets things wrong. 
+          We also launched UAAI on its own branded domain rather than embedding inside the UW advising 
+          site, and round 2 user testing showed users entering through the UW page couldn't tell when 
+          they'd entered UAAI or what the product even was.
+        </span>
       </div>
     </div>
   </section>
@@ -189,28 +220,62 @@
  
     <div class="reveal">
       <p class="body lead">
-        <strong>[ Describe the core concept. ]</strong> Explain how users interact with it,
-        the key features, and how it solves the problem from Section 01.
+        UAAI is a UW-specific AI advising assistant that provides accurate, instant answers 
+        to routine academic questions 24/7, while routing complex decisions to a real human advisor. 
+        Students log in with their UW NetID, land directly on an AI chat interface, and ask questions 
+        in natural language. The AI responds with verified, plain-language answers that cite their 
+        sources and remembers each student's academic context with major, year, credits, registration 
+        date, so every interaction feels personal rather than generic.
       </p>
     </div>
  
     <div class="showcase reveal">
-      <div class="ph ph-hero" data-label="Hi-fi prototype / hero mockup">
-        <span class="ph-tag">main screen</span>
+      <div class="ph ph-lg reveal" data-label="Hi-fi prototype / hero mockup">
+        <img src="hifiprototype.png" alt="Hi-fi prototype">
       </div>
     </div>
  
     <div class="grid-2 gap-tight">
-      <div class="ph ph-med reveal" data-label="Sketches / lo-fi"><span class="ph-tag">image</span></div>
-      <div class="ph ph-med reveal" data-label="User flow diagram"><span class="ph-tag">image</span></div>
-      <div class="ph ph-med reveal" data-label="Interface mockup"><span class="ph-tag">image</span></div>
-      <div class="ph ph-med reveal" data-label="Annotated screen"><span class="ph-tag">image</span></div>
+      <div class="ph ph-med reveal" data-label="Sketches / lo-fi">
+        <img src="lofiprototype.png" alt="Low fidelity paper prototype">
+      </div>
+      <div class="ph ph-med reveal" data-label="User flow diagram">
+        <img src="userflowdiagram.png" alt="User flow diagram">
+      </div>
+      <div class="ph ph-med reveal" data-label="Interface mockup">
+        <img src="interfacemockup.png" alt="Interface mockup">
+      </div>
+      <div class="ph ph-med reveal" data-label="Annotated screen">
+        <img src="storyboard.png" alt="Storyboard">
+      </div>
     </div>
  
     <div class="feature-strip reveal">
-      <div class="feat"><span class="feat-n">A</span><p>[ Key feature one — what it does, why it helps. ]</p></div>
-      <div class="feat"><span class="feat-n">B</span><p>[ Key feature two — what it does, why it helps. ]</p></div>
-      <div class="feat"><span class="feat-n">C</span><p>[ Key feature three — what it does, why it helps. ]</p></div>
+      <div class="feat"><span class="feat-n">A</span>
+        <p>
+          AI Chat (Dubs) - The core feature and first screen after login. Students ask questions in free 
+          text or tap suggested starters like "What courses do I need to graduate?" Dubs answers using 
+          verified UW data and cites its source on every response, so students know the answer is 
+          trustworthy and not a guess.
+        </p>
+      </div>
+      <div class="feat"><span class="feat-n">B</span>
+        <p>
+          Escalation & Advisor Booking - A persistent "Book Advisor" button appears on every page. 
+          When Dubs can't answer a question, it proactively surfaces real appointment slots from 
+          the student's assigned advisor. This closes the loop between AI support and human 
+          support without the student ever having to leave the tool or start over.
+        </p>
+      </div>
+      <div class="feat"><span class="feat-n">C</span>
+        <p>
+          Student Profile + Chat History - UW NetID login pulls each student's academic data and 
+          makes it available across every interaction. Chat History lets students return to and 
+          continue past conversations so advice doesn't get lost. Together these features make UAAI 
+          feel like a tool that actually knows you with directly addressing the research finding that 
+          students with advisors who knew them personally rated their advising experience significantly higher.
+        </p>
+      </div>
     </div>
   </section>
  
